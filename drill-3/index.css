@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, section, footer {
+    display: block;
+  }
+  header {
+    background-color: #bcb8b8;
+    height: 75px;
+    padding: 20px;
+  }
+
+section {
+    height: 50px;
+    width: 50px;
+    background-color: #00aaff;
+}
+
+.text {
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+.blue{
+    height: 150px;
+    background-color: #00aaff;
+}
+
+.aqua {
+    height: 150px;
+    background-color: aqua;
+}
+
+.lime {
+    height: 150px;
+    background-color: lime;
+}
+
+footer {
+    height: 200px;
+    background-color: #eaff00;
+    padding: 10px;
+  }
+
+  #circle {
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(9, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+  }
